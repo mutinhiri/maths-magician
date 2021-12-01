@@ -28,9 +28,10 @@ class Calculator extends React.Component {
         <button type="button" className="operator-button">+</button>
         <button type="button" className="double">0</button>
         <button type="button">.</button>
+        <button className="operator-button" type="button">=</button>
       </div>
     )
   }
-
 }
 
+export default Calculator
