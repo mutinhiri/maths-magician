@@ -19,6 +19,15 @@ class Calculator extends React.Component {
         <button type= "button">9</button>
         <button type= "button" className="operator-button">x</button>
         <button type= 'button'>4</button>
+        <button type= "button">5</button>
+        <button type= "button">6</button>
+        <button type = "button" className= "operator-button">-</button>
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button" className="operator-button">+</button>
+        <button type="button" className="double">0</button>
+        <button type="button">.</button>
       </div>
     )
   }
