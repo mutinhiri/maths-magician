@@ -17,7 +17,9 @@ class Calculator extends React.Component {
     this.buttonClick = this.buttonClick.bind(this);
   }
   buttonClick(buttonName){
-    this.setState
+    this.setState((state) => ({
+      data: calculate(state.data, buttonName)
+    }))
   }
 
   render() {
