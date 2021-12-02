@@ -33,7 +33,7 @@ class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div className="root">
-          0
+          {data.next || data.operation || data.total || 0}
 
         </div>
         <button type="button"> AC</button>
