@@ -8,7 +8,13 @@ function Button(props) {
   );
 }
 
-Button.PropTypes = {
+Button.propTypes = {
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  buttonClick: PropTypes.func.isRequired,
+};
+
+Button.defaultProps = {
   className: '',
 };
 
