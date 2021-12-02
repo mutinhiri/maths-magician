@@ -1,9 +1,27 @@
 import React from 'react';
 import './Calculator.css';
+import Button from './Button';
+import calculate from '../logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: {
+        total: null,
+        next: null,
+        operation: null
+      },
+    };
+    this.buttonClick = this.buttonClick.bind(this);
+  }
+  buttonClick(buttonName){
+    this.setState
+  }
+
   render() {
+    const {data} = this.state
     return (
       <div className="calculator">
         <div className="root">
