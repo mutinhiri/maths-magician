@@ -8,3 +8,8 @@ function Button(props){
   )
 }
 
+Button.PropTypes = {
+  className: '',
+};
+
+export default Button
