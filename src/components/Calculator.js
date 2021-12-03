@@ -17,8 +17,8 @@ const Calculator = () => {
     '0', '.', '='];
 
   return (
-    <div className="Calculator">
-      <div className="output-bar">
+    <div className="calculator">
+      <div className="root">
         {data.next || data.operation || data.total || '0'}
       </div>
       {
@@ -27,7 +27,7 @@ const Calculator = () => {
             key={btn.id}
             className={
               btn === '÷' || btn === 'x' || btn === '-' || btn === '+' || btn === '='
-                ? 'operation-btn'
+                ? 'operator-button'
                 : `btn${btn}`
             }
             data={data}
