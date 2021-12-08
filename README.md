@@ -1,4 +1,4 @@
-# Maths Magician project app
+# Maths Magician project App
 
 In this project, i will be creating a React maths magician app
 In this project i implemented basic setup
