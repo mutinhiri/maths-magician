@@ -9,7 +9,13 @@ import './App.css';
 
 const App = () => (
   <Router>
-    <header>
+    <header className='header'>
+      <h1>Math Magician</h1>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
 
     </header>
   
