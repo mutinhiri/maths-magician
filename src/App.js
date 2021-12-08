@@ -19,22 +19,49 @@ const App = () => (
     </header>
     <div className="App">
       <Routes>
-        <Route path="/" element={(
-                                  <div className='App'>
-                                    <div className='homepage-container'>
-                                      <h1>Homepage</h1>
-                                      <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quas sit architecto explicabo? A repellendus, nihil expedita sint magnam dolores.
-                                      </p>
-                                      <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, officiis cumque dolorum odit saepe rerum corporis, aliquam a similique quisquam enim numquam esse laudantium asperiores, est deserunt eos molestiae neque!
-                                      </p>
-                                    </div>
-                                   
-                                  </div>
-                                  )} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/quote" element={<h1>Welcome to the quote page</h1>} />
+        <Route
+          path="/home"
+          element={(
+            <div className=" App homepage-container">
+              <h1>Homepage</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                At quas sit architecto explicabo? A repellendus, nihil expedita
+                sint magnam dolores.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Error, officiis cumque dolorum odit saepe rerum corporis,
+                aliquam a similique quisquam enim numquam esse laudantium
+                asperiores, est deserunt eos molestiae neque!
+              </p>
+            </div>
+            )}
+        />
+        <Route
+          path="/calculator"
+          element={(
+            <div className="App calculator-container">
+              <h3>Lets do some maths</h3>
+              <Calculator />
+            </div>
+
+                                          )}
+        />
+        <Route
+          path="/quote"
+          element={(
+            <div className="App quote-container">
+              <h3>
+                The best programmers are not marginally better than merely good ones.
+                They are an order-of-magnitude better, measured by whatever standard:
+                conceptual creativity, speed, ingenuity of design, or problem-solving ability.
+                Randall E. Stross
+              </h3>
+
+            </div>
+                                        )}
+        />
       </Routes>
     </div>
 
