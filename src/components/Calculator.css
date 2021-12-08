@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  border: 1px solid grey;
+  margin: auto;
+}
+
+.root {
+  grid-column: span 4;
+  text-align: right;
+  padding: 20px;
+  border: 1px solid grey;
+  color: white;
+  background: grey;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+button {
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.btn0 {
+  grid-column: span 2;
+}
+
+.operator-button {
+  background-color: orange;
+}
