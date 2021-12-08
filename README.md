@@ -1,39 +1,69 @@
-# Maths Magician project app
+![](src/Screenshot4.png)
+## About The Project
 
-In this project, i will be creating a React maths magician app
-In this project i implemented basic setup
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+Make simple calculations.
+Read a random math-related quote.
 
-## Built with
+### Built With
 
-React technology 
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JS](https://www.javascript.com/)
+- [React js](https://www.reactjs.org)
 
-## Available Scripts
+## Authors
+👤 **Bunbee**
 
-In the project directory, you can run:
+- GitHub: [@Bunbee](https://github.com/mutinhiri)
+- Twitter: [@Bunbee02](https://twitter.com/)
+- LinkedIn: [barnabas mutinhiri](https://www.linkedin.com/in/bunbee/)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- You will not need additional instructions on installing Prerequisites.
+- In case you have node_modules on your folder Add them to .gitignore file before you a push.
 
-### `npm run build`
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- No prerequisites needed for this project.
 
-# Authors
+### Installation
 
-- GitHub: [Bunbee](https://github.com/mutinhiri).
-- Twitter: [@Bunbee02](https://twitter.com/Bunbee02).
-- LinkedIn: [@bunbee](https://www.linkedin.com/in/bunbee).
 
-# Contributing
+1. Clone the repo
+   ```sh
+   https://github.com/mutinhiri/maths-magician.git
+   ```
 
-Contributions, issues, and feature requests are welcome!
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run server
+   ```sh
+   npm start
+   ```
 
-Feel free to check the [issues page](https://github.com/mutinhiri/Leaderboard/issues).
+## Roadmap
 
-# Show your support
+See the [open issues](https://github.com/mutinhiri/maths-magician/issues) for a list of proposed features (and known issues).
 
-Give a :star: if you like this project!
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
+
+## License
+
+License Free.
+
+## Acknowledgements
+
+- [GitHub Pages](https://pages.github.com)
+- [WebPack](https://webpack.js.org/)
