@@ -19,7 +19,20 @@ const App = () => (
     </header>
     <div className="App">
       <Routes>
-        <Route path="/" element={<h2> Homepage</h2>} />
+        <Route path="/" element={(
+                                  <div className='App'>
+                                    <div className='homepage-container'>
+                                      <h1>Homepage</h1>
+                                      <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quas sit architecto explicabo? A repellendus, nihil expedita sint magnam dolores.
+                                      </p>
+                                      <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, officiis cumque dolorum odit saepe rerum corporis, aliquam a similique quisquam enim numquam esse laudantium asperiores, est deserunt eos molestiae neque!
+                                      </p>
+                                    </div>
+                                   
+                                  </div>
+                                  )} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<h1>Welcome to the quote page</h1>} />
       </Routes>
