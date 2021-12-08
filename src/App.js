@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Link,
 } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import './App.css';
@@ -12,15 +13,15 @@ const App = () => (
     <header className="header">
       <h1>Math Magician</h1>
       <ul className="navigation">
-        <li><a href="home">Home</a></li>
-        <li><a href="calculator">Calculator</a></li>
-        <li><a href="quote">Quote</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="calculator">Calculator</Link></li>
+        <li><Link to="quote">Quote</Link></li>
       </ul>
     </header>
     <div className="App">
       <Routes>
         <Route
-          path="/home"
+          path="/"
           element={(
             <div className=" App homepage-container">
               <h1>Homepage</h1>
