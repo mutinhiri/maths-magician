@@ -1,4 +1,7 @@
 ![](src/Screenshot4.png)
+
+https://bunbee.netlify.app/
+https://maths-magicians-bunbee.herokuapp.com/
 ## About The Project
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
